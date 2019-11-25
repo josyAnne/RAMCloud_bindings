@@ -1,0 +1,19 @@
+products:
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> build/classes/main/edu/stanford/ramcloud/TestClient$.class
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> build/classes/main/edu/stanford/ramcloud/TestClient.class
+binary dependencies:
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> /home/invoker0/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+source dependencies:
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/ClientException.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/RAMCloud.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/RAMCloudObject.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/TableIterator.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/Util.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/multiop/MultiReadObject.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/multiop/MultiRemoveObject.java
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> src/main/scala/edu/stanford/ramcloud/multiop/MultiWriteObject.java
+external dependencies:
+class names:
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> edu.stanford.ramcloud.TestClient
+   src/main/scala/edu/stanford/ramcloud/TestClient.scala -> edu.stanford.ramcloud.TestClient$

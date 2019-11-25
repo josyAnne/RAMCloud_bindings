@@ -1,0 +1,10 @@
+-shared
+-Wl,-soname,libramcloud_java.so
+-o
+/home/invoker0/RAMCloud/bindings/java/build/binaries/mainSharedLibrary/libramcloud_java.so
+/home/invoker0/RAMCloud/bindings/java/build/objs/mainSharedLibrary/mainCpp/35bluv651vp41dz6oyi4ssxpq/edu_stanford_ramcloud_RAMCloud.o
+/home/invoker0/RAMCloud/bindings/java/build/objs/mainSharedLibrary/mainCpp/a2w1botwpyrwvjlnt7pktnphu/edu_stanford_ramcloud_TableIterator.o
+/home/invoker0/RAMCloud/bindings/java/build/objs/mainSharedLibrary/mainCpp/dw229j2o844mx5b1ti6sq2r21/edu_stanford_ramcloud_TestClient.o
+/home/invoker0/RAMCloud/bindings/java/build/objs/mainSharedLibrary/mainCpp/tt4hpukem8yhiluxzlz0lra8/edu_stanford_ramcloud_multiop_MultiOpHandler.o
+/home/invoker0/RAMCloud/obj.master/libramcloud.so
+-m64

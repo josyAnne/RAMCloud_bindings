@@ -1,0 +1,4 @@
+See file:///home/invoker0/RAMCloud/bindings/java/build/tmp/linkMainSharedLibrary/output.txt for all output for linkMainSharedLibrary.
+linking libramcloud_java.so successful.
+
+Finished linkMainSharedLibrary, see full log file:///home/invoker0/RAMCloud/bindings/java/build/tmp/linkMainSharedLibrary/output.txt.

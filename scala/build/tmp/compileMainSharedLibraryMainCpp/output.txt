@@ -1,0 +1,4 @@
+See file:///home/invoker0/RAMCloud/bindings/java/build/tmp/compileMainSharedLibraryMainCpp/output.txt for all output for compileMainSharedLibraryMainCpp.
+compiling edu_stanford_ramcloud_TestClient.cc successful.
+
+Finished compileMainSharedLibraryMainCpp, see full log file:///home/invoker0/RAMCloud/bindings/java/build/tmp/compileMainSharedLibraryMainCpp/output.txt.

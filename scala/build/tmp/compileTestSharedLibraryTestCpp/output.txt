@@ -1,0 +1,22 @@
+See file:///home/invoker0/RAMCloud/bindings/java/build/tmp/compileTestSharedLibraryTestCpp/output.txt for all output for compileTestSharedLibraryTestCpp.
+compiling edu_stanford_ramcloud_test_TestCluster.cc failed.
+/home/invoker0/RAMCloud/bindings/java/src/test/cpp/edu_stanford_ramcloud_test_TestCluster.cc: In function ‘void Java_edu_stanford_ramcloud_test_TestCluster_createMockCluster(JNIEnv*, jclass, jlongArray)’:
+/home/invoker0/RAMCloud/bindings/java/src/test/cpp/edu_stanford_ramcloud_test_TestCluster.cc:43:24: error: ‘PING_SERVICE’ is not a member of ‘RAMCloud::WireFormat’
+                        WireFormat::PING_SERVICE};
+                        ^
+/home/invoker0/RAMCloud/bindings/java/src/test/cpp/edu_stanford_ramcloud_test_TestCluster.cc:42:21: error: no match for ‘operator=’ (operand types are ‘RAMCloud::ServiceMask’ and ‘<brace-enclosed initializer list>’)
+     config.services = {WireFormat::MASTER_SERVICE,
+                     ^
+In file included from /home/invoker0/RAMCloud/src/ServerList.h:21:0,
+                 from /home/invoker0/RAMCloud/src/TransportManager.h:26,
+                 from /home/invoker0/RAMCloud/src/BindTransport.h:22,
+                 from /home/invoker0/RAMCloud/src/MockCluster.h:19,
+                 from /home/invoker0/RAMCloud/bindings/java/src/test/cpp/edu_stanford_ramcloud_test_TestCluster.cc:18:
+/home/invoker0/RAMCloud/src/ServiceMask.h:31:7: note: candidate: RAMCloud::ServiceMask& RAMCloud::ServiceMask::operator=(const RAMCloud::ServiceMask&)
+ class ServiceMask {
+       ^
+/home/invoker0/RAMCloud/src/ServiceMask.h:31:7: note:   no known conversion for argument 1 from ‘<brace-enclosed initializer list>’ to ‘const RAMCloud::ServiceMask&’
+/home/invoker0/RAMCloud/src/ServiceMask.h:31:7: note: candidate: RAMCloud::ServiceMask& RAMCloud::ServiceMask::operator=(RAMCloud::ServiceMask&&)
+/home/invoker0/RAMCloud/src/ServiceMask.h:31:7: note:   no known conversion for argument 1 from ‘<brace-enclosed initializer list>’ to ‘RAMCloud::ServiceMask&&’
+
+Finished compileTestSharedLibraryTestCpp, see full log file:///home/invoker0/RAMCloud/bindings/java/build/tmp/compileTestSharedLibraryTestCpp/output.txt.
